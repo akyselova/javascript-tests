@@ -1,0 +1,18 @@
+{
+  "name": "apiTest",
+  "description": "API test for Taxamo Transaction API",
+  "version": "0.0.1",
+  "author": "Anastasiia Kyselova",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chakram": "^1.5.0",
+    "mocha": "^3.2.0",
+    "mochawesome": "^2.0.4"
+  },
+  "engines": {
+    "node": ">= 7.0.0"
+  },
+  "scripts": {
+    "test": "mocha test/api-test.js --reporter mochawesome -u bdd -t 10000"
+  }
+}
