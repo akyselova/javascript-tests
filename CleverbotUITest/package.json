@@ -8,9 +8,9 @@
     "chai-as-promised": "^6.0.0",
     "circular-json": "^0.3.1",
     "handlebars": "^4.0.6",
-    "mocha": "^3.2.0",
+    "mocha": "^5.2.0",
     "mochawesome": "^2.0.4",
-    "nightwatch": "^0.9.14",
+    "nightwatch": "^1.0.6",
     "selenium-download": "^2.0.9"
   },
   "engines": {
