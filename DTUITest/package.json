@@ -1,0 +1,23 @@
+{
+  "name": "UITest",
+  "description": "UI test for DreamTeam",
+  "version": "0.0.1",
+  "author": "Anastasiia Kyselova",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "circular-json": "^0.3.1",
+    "handlebars": "^4.0.6",
+    "mocha": "^5.2.0",
+    "mochawesome": "^2.0.4",
+    "nightwatch": "^1.0.6",
+    "selenium-download": "^2.0.9"
+  },
+  "engines": {
+    "node": ">= 7.0.0"
+  },
+  "scripts": {
+    "test": "nightwatch --config nightwatch.conf.js --reporter html-reporter.js",
+    "postinstall": "node nightwatch.conf.js"
+  }
+}
