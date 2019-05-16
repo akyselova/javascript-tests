@@ -1,0 +1,11 @@
+
+Title: Impossible to filter cars by model
+
+Steps to reproduce:
+1. Go to https://www.carnext.com/en-be/cars
+2. Filter list by car mark (e.g BMW)
+3. Filter list by model (e.g 4 gran coupe)
+4. Check displayed list of cars
+
+Actual result: List contain all models of chosen mark - filtering didn't occur (see attached video)
+Expected result: List should be filtered by model instantly after corresponding selection occurred (user checked model checkbox)
