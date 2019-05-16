@@ -1,3 +1,7 @@
 {
-    "baseUrl": "https://www.carnext.com/en-be"
+    "baseUrl": "https://www.carnext.com/en-be",
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "reportDir": "cypress/results"
+    }
 }
