@@ -1,0 +1,22 @@
+{
+  "name": "leviuitest",
+  "version": "1.0.0",
+  "description": "E2E Test for Levi",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --spec 'cypress/integration/search_spec.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akyselova/javascript-tests.git"
+  },
+  "author": "Anastasiia Kyselova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akyselova/javascript-tests/issues"
+  },
+  "homepage": "https://github.com/akyselova/javascript-tests#readme",
+  "devDependencies": {
+    "cypress": "^3.2.0"
+  }
+}
